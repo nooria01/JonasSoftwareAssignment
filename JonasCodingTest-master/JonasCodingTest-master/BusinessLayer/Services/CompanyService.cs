@@ -11,9 +11,6 @@ namespace BusinessLayer.Services
 {
     public class CompanyService : ICompanyService
     {
-        
-
-
         private readonly ICompanyRepository _companyRepository;
         private readonly IMapper _mapper;
 
